@@ -10,12 +10,8 @@ Additionally, each project directory contains a src directory that contains the 
 
 ``` bash
 src/
-├── data/                # data files used in the project
-├── models/              # trained models (if applicable)
-├── utils/               # utility functions used in the project
-├── main.py              # main script for running the project
-├── requirements.txt     # list of required Python packages
-└── tutorial.md          # details and thanks to the tutorial followed
+├── **project_files      # The files for the project
+└── README.md            # details and thanks to the tutorial followed
 ```
 Tutorial Details
 For each project, I have included a tutorial.md file that provides details about the tutorial video that I followed to complete the project, as well as any thanks or acknowledgments that I would like to give. The tutorial.md file is structured as follows:
@@ -24,25 +20,17 @@ For each project, I have included a tutorial.md file that provides details about
 ```markdown
 - **Tutorial Title:** [Title of Tutorial]
 - **Tutorial Author:** [Author or Creator of Tutorial]
-- **Tutorial Link:** [Link to Tutorial Video or Website]
+- **Tutorial Link:** [Link to Tutorial Video or Website]()
+- **Tutorial GitHub Link:** [Link to GitHub Tutorial]()
 - **Thanks/Acknowledgments:** [Optional: Any thanks or acknowledgments you would like to give]
 ```
 
 ## Requirements
-To run the projects in this repository, you will need to have Python 3.6 or higher installed, as well as the LangChain library and any other required packages. The required packages for each project are listed in the requirements.txt file in the project's src directory.
+To run the projects in this repository, you will need to have Python 3.10.10 istalled, as well as the LangChain library and any other required packages. The required packages for each project are listed in the requirements.txt file in the project's src directory.
 
 To install the required packages for a project, you can use the following command:
 
 ```bash
-pip install -r src/requirements.txt
+pip install -r requirements.txt
 ```
 
-## Usage
-To run a project, navigate to the project directory and run the main.py script using Python:
-
-```bash
-cd project_directory
-python src/main.py
-```
-
-This will execute the project and produce the desired output. For more information on the project and its expected output, see the project's README.md file.
