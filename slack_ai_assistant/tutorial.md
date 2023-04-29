@@ -1,0 +1,4 @@
+- **Tutorial Title:** Create Your OWN Slack AI Assistant with Python & LangChain
+- **Tutorial Author:** Dave Ebbelaar
+- **Tutorial Link:** [Link to Tutorial Video](https://www.youtube.com/watch?v=3jFXRNn2Bu8)
+- **Tutorial GitHub Link:** [Link to GitHub Tutorial](https://github.com/daveebbelaar/langchain-experiments/tree/main/slack)
