@@ -20,9 +20,8 @@ src/
 Tutorial Details
 For each project, I have included a tutorial.md file that provides details about the tutorial video that I followed to complete the project, as well as any thanks or acknowledgments that I would like to give. The tutorial.md file is structured as follows:
 
-```markdown
 # Tutorial Details
-
+```markdown
 - **Tutorial Title:** [Title of Tutorial]
 - **Tutorial Author:** [Author or Creator of Tutorial]
 - **Tutorial Link:** [Link to Tutorial Video or Website]
